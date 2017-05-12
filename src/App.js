@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import Project from './Project'
+import Workspace from './Workspace'
 
 class App extends Component {
   render () {
@@ -9,7 +9,7 @@ class App extends Component {
         <div>
           <h1>Green Winter</h1>
         </div>
-        <Project />
+        <Workspace />
       </div>
     )
   }
