@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import Task from './Task'
 
 class Status extends Component {
@@ -11,12 +10,6 @@ class Status extends Component {
       </div>
     )
   }
-}
-
-Task.propTypes = {
-  name: PropTypes.string.isRequired,
-  estimate: PropTypes.number.isRequired,
-  details: PropTypes.string
 }
 
 export default Status
