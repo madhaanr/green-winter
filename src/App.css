@@ -16,6 +16,17 @@
 .use-case {
   max-width: 1190px;
 }
+.status {
+	width: 200px;
+	height: 404px;
+	border: 1px dashed grey;
+}
+
+.use-case {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
 
 
 
